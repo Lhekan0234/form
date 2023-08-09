@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM STYLE</title>
+    <link rel="stylesheet" href="styl.css">
+</head>
+<body font-family="Arial">
+  <h1>INSERT YOUR DETAILS TO CONTINUE</h1>  
+  <div class="form">
+    <form action=""www.google.com method="get">
+        <div id="fname">
+            <label for="name">First name</label> <br>
+            <input type="text" name="First name" id="name" placeholder="first name">
+        </div> <br>
+
+        <div id="lname">
+            <label for="name">Last name</label> <br>
+            <input type="text" name="Last name" id="name" placeholder="last name">
+        </div> <br>
+
+        <div id="mail">
+            <label for="email">Email address</label> <br>
+            <input type="email" name="Email address" placeholder="email addresse" value="email@email">
+        </div> <br>
+
+        <input type="hidden" name="hidden" value="HELLO WORLD"> <br>
+
+        <div>
+            <label for="url"> url</label>
+            <input type="url" name="url" id="url">
+        </div> <br>
+
+        <div>
+            <label for="gender">Gender</label> <br>
+            <label for="male">Male</label>
+            <input type="radio" id="male" name="gender>
+
+            <label for="male">Female</label>
+            <input type="radio" id="female" name="gender">
+        </div> <br>
+
+        <div>
+            <label for="phone">Phone number</label>
+            <input type="tel" name="phone" id="phone">
+        </div> <br>
+
+        <div>
+            <label for="DOB">Date of birth</label>
+            <input type="date" name="Date of birth" id="DOB">
+        </div>  <br>
+
+        <div>
+            <label for="data">Birthday</label>
+            <input type="data" name="data" id="data" min="01-01-1990" max="01-01-2030">
+        </div> <br>
+
+        <div>
+            <label for="number">Telephone<label>
+            <input type="number" name="number" id="number">
+        </div> <br>
+
+        <div>
+            <label for="number">Age<label>
+            <input type="number" na?me="age" id="number" min="1" max="212" size="1">
+        </div> <br>
+
+        <div>
+            <label for="password">Password<label>
+            <input type="password" id="number" pattern="(?=.*\d)(?=.*\{a-z})(?=.*\{A-Z}).{8,})" title="must contain atleast 8 character" required>
+        </div> <br>
+
+        <div>
+            <label for="states">STATE OF ORIGIN</label> <br>
+            <select name="states" id="state">
+                <option value="abia">ABIA</option>
+                <option value="ADAMAWA">ADAMAWA</option>
+                <option value="AKWA IBO">AKWA IBOM</option>
+                <option value="ANAMBRA">ANAMBRA</option>
+                <option value="BENUE">BENUE</option>
+                <option value="CROSS RIVER">CROSS RIVER</option>
+                <option value="DELTA">DELTA</option>
+                <option value="EDO">EDO</option>
+                <option value="GOMBE">GOMBE</option>
+                <option value="JIGAWA">JIGAWA</option>
+                <option value="IMO">IMO</option>
+                <option value="KADUNA">KADUNA</option>
+                <option value="LAGOS">LAGOS</option>
+                <option value="OGUN">OGUN</option>
+            </select>
+        </div> <br>
+        <div>
+            <p>Program of choice</p> 
+            <label for="html">HTML</label>
+            <input type="checkbox" name="html" id="html"><br>
+
+            <label for="JAVA">JAVA</label>
+            <input type="checkbox" name="JAVA" id="JAVA"><br>
+
+            <label for="PHYTON">PHYTON</label>
+            <input type="checkbox" name="phyton" id="phyton"><br>
+
+            <label for="design">PRODUCT DESIGN</label>
+            <input type="checkbox" name="design" id="design"><br>
+
+            <label for="graphics">GRAPHICS DESIGN</label>
+            <input type="checkbox" name="graphics" id="graphics"><br>
+        </div> <br>
+
+        <div>
+            <textarea type="message" id="info" cols="30" rows="10">MESSAGE US</textarea>
+        </div><br>
+<!--status : <progress min="0" max="100" value="70"></progress> <br> -->
+
+        <button type="submit">submit</button> <br><br>
+        <button type="reset">reset</button>
+
+        <p>Copyright&copy:2020</p>
+    </form>
+  </div>
+</body>
+</html>
